@@ -1,0 +1,17 @@
+Package: physql
+Type: Package
+Title: Analyze and Aggregate Metabarcode Data
+Version: 0.1.0
+Date: 2023-10-27
+Authors@R: person("Chris", "Hames", email = "chris@metagen.com.au", role = c("aut", "cre"))
+Description: Provides functions for connecting to and querying metabarcode data stored in a database, with a focus on taxonomic aggregation.
+Language: en
+Imports:
+    DBI,
+    duckdb,
+    dplyr,
+    dbplyr,
+    pool,
+    keyring,
+    sf,
+    tibble
